@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int n;
+    long long n;
     cin >> n;
 
-    int arr[n];
+    long long arr[n];
 
     for (int i = 0; i < n; i++)
     {
