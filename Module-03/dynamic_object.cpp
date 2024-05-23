@@ -16,18 +16,11 @@ public:
     }
 };
 
-Student *fun()
-{
-    Student *a = new Student(23, 233, 2.33);
-    return a;
-}
-
 int main()
 {
-    Student *ans = fun();
-    cout << ans->cls << " " << ans->roll << " " << ans->cgpa << endl;
-    delete ans;
-    // cout << ans->cls << " " << ans->roll << " " << ans->cgpa << endl;
+    Student a(23, 233, 2.33);
+    Student *b = new Student(23, 233, 2.33);
 
+    cout << b->roll << " " << b->cls << " " << b->cgpa;
     return 0;
 }
