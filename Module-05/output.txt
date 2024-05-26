@@ -1,2 +1,6 @@
-Not same
-Hello
+11
+1073741823
+
+Not Empty
+Hello 5
+Helloxxxxxxxxxxxxxxx 20
