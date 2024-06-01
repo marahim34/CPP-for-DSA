@@ -1,0 +1,1 @@
+s.find("010", index1 + size)
